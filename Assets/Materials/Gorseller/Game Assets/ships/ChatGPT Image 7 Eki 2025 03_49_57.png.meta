@@ -1,0 +1,546 @@
+fileFormatVersion: 2
+guid: a5c98318b9cc97d4c9b4e01507bd3689
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5222857630954436251
+    second: ChatGPT Image 7 Eki 2025 03_49_57_0
+  - first:
+      213: 8361528130337695321
+    second: ChatGPT Image 7 Eki 2025 03_49_57_1
+  - first:
+      213: 8749688593312553263
+    second: ChatGPT Image 7 Eki 2025 03_49_57_2
+  - first:
+      213: -3409515800355090499
+    second: ChatGPT Image 7 Eki 2025 03_49_57_3
+  - first:
+      213: -5164155178615902601
+    second: ChatGPT Image 7 Eki 2025 03_49_57_4
+  - first:
+      213: -221096432949626787
+    second: ChatGPT Image 7 Eki 2025 03_49_57_5
+  - first:
+      213: 5119326377155803886
+    second: ChatGPT Image 7 Eki 2025 03_49_57_6
+  - first:
+      213: -6188866037131807377
+    second: ChatGPT Image 7 Eki 2025 03_49_57_7
+  - first:
+      213: -1763272444678753812
+    second: ChatGPT Image 7 Eki 2025 03_49_57_8
+  - first:
+      213: 9164022234403494263
+    second: ChatGPT Image 7 Eki 2025 03_49_57_9
+  - first:
+      213: 338868660636533341
+    second: ChatGPT Image 7 Eki 2025 03_49_57_10
+  - first:
+      213: 1971005668435509431
+    second: ChatGPT Image 7 Eki 2025 03_49_57_11
+  - first:
+      213: 7380065857302366059
+    second: ChatGPT Image 7 Eki 2025 03_49_57_12
+  - first:
+      213: -6026497784136973545
+    second: ChatGPT Image 7 Eki 2025 03_49_57_13
+  - first:
+      213: 2730464317517069356
+    second: ChatGPT Image 7 Eki 2025 03_49_57_14
+  - first:
+      213: 5100375601713476418
+    second: ChatGPT Image 7 Eki 2025 03_49_57_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ChatGPT Image 7 Eki 2025 03_49_57_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1024
+        height: 1532
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 569c58218aea487b0800000000000000
+      internalID: -5222857630954436251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChatGPT Image 7 Eki 2025 03_49_57_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1351
+        width: 129
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 956e634888d1a0470800000000000000
+      internalID: 8361528130337695321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChatGPT Image 7 Eki 2025 03_49_57_2
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1127
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f299ea3fa632d6970800000000000000
+      internalID: 8749688593312553263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChatGPT Image 7 Eki 2025 03_49_57_3
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 1152
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbfc0c7a177fea0d0800000000000000
+      internalID: -3409515800355090499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChatGPT Image 7 Eki 2025 03_49_57_4
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1112
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77eea95d93c3558b0800000000000000
+      internalID: -5164155178615902601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChatGPT Image 7 Eki 2025 03_49_57_5
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1079
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d587ee437f18eecf0800000000000000
+      internalID: -221096432949626787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChatGPT Image 7 Eki 2025 03_49_57_6
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1088
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeab8a777308b0740800000000000000
+      internalID: 5119326377155803886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChatGPT Image 7 Eki 2025 03_49_57_7
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 199
+        width: 8
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f657746112bbc1aa0800000000000000
+      internalID: -6188866037131807377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChatGPT Image 7 Eki 2025 03_49_57_8
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 174
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce130b4cd099787e0800000000000000
+      internalID: -1763272444678753812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChatGPT Image 7 Eki 2025 03_49_57_9
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 168
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 779d66b4ba52d2f70800000000000000
+      internalID: 9164022234403494263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChatGPT Image 7 Eki 2025 03_49_57_10
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 68
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d52c0ce5047e3b400800000000000000
+      internalID: 338868660636533341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChatGPT Image 7 Eki 2025 03_49_57_11
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 75
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b0416d663b6a5b10800000000000000
+      internalID: 1971005668435509431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChatGPT Image 7 Eki 2025 03_49_57_12
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 82
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b670f73cbc24b6660800000000000000
+      internalID: 7380065857302366059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChatGPT Image 7 Eki 2025 03_49_57_13
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 66
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71346d0f1349d5ca0800000000000000
+      internalID: -6026497784136973545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChatGPT Image 7 Eki 2025 03_49_57_14
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 72
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2cfb7584de84e520800000000000000
+      internalID: 2730464317517069356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChatGPT Image 7 Eki 2025 03_49_57_15
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 11
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2437339369c28c640800000000000000
+      internalID: 5100375601713476418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ChatGPT Image 7 Eki 2025 03_49_57_0: -5222857630954436251
+      ChatGPT Image 7 Eki 2025 03_49_57_1: 8361528130337695321
+      ChatGPT Image 7 Eki 2025 03_49_57_10: 338868660636533341
+      ChatGPT Image 7 Eki 2025 03_49_57_11: 1971005668435509431
+      ChatGPT Image 7 Eki 2025 03_49_57_12: 7380065857302366059
+      ChatGPT Image 7 Eki 2025 03_49_57_13: -6026497784136973545
+      ChatGPT Image 7 Eki 2025 03_49_57_14: 2730464317517069356
+      ChatGPT Image 7 Eki 2025 03_49_57_15: 5100375601713476418
+      ChatGPT Image 7 Eki 2025 03_49_57_2: 8749688593312553263
+      ChatGPT Image 7 Eki 2025 03_49_57_3: -3409515800355090499
+      ChatGPT Image 7 Eki 2025 03_49_57_4: -5164155178615902601
+      ChatGPT Image 7 Eki 2025 03_49_57_5: -221096432949626787
+      ChatGPT Image 7 Eki 2025 03_49_57_6: 5119326377155803886
+      ChatGPT Image 7 Eki 2025 03_49_57_7: -6188866037131807377
+      ChatGPT Image 7 Eki 2025 03_49_57_8: -1763272444678753812
+      ChatGPT Image 7 Eki 2025 03_49_57_9: 9164022234403494263
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
