@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 90b40f5bc3aa90540b9a57051094981a
+guid: 44b03cef8cf97a844adacafe7103a533
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2639600459624844850
-    second: sahil1_0
-  - first:
-      213: 1327498506640387342
-    second: sahil1_1
+      213: -4343078206461193532
+    second: Group 732_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -116,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sahil1_0
+      name: Group 732_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 315
-        width: 877
-        height: 1221
+        y: 1
+        width: 1810
+        height: 5094
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,30 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ec17a1ffd514e5bd0800000000000000
-      internalID: -2639600459624844850
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sahil1_1
-      rect:
-        serializedVersion: 2
-        x: 19
-        y: 250
-        width: 40
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e0d6920cbd83c6210800000000000000
-      internalID: 1327498506640387342
+      spriteID: 4c2d320c1694ab3c0800000000000000
+      internalID: -4343078206461193532
       vertices: []
       indices: 
       edges: []
@@ -173,8 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      sahil1_0: -2639600459624844850
-      sahil1_1: 1327498506640387342
+      Group 732_0: -4343078206461193532
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

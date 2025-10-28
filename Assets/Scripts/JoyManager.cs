@@ -20,29 +20,33 @@ public class JoyManager : MonoBehaviour
     public AudioClip loseJoySound;
     private AudioSource audioSource;
 
+    // 🔔 DebugPanel veya başka sistemlerin dinleyeceği event
+    public System.Action OnJoyValuesChanged;
+
     private const string DeliveredKey = "DeliveredJoy";
 
     private void Awake()
     {
-        if (Instance == null)
+        // 🔒 Tekil instance kontrolü
+        var existingManagers = FindObjectsOfType<JoyManager>();
+        if (existingManagers.Length > 1)
         {
-            Instance = this;
-            DontDestroyOnLoad(gameObject);
-
-            delivered = PlayerPrefs.GetInt(DeliveredKey, 0);
-        }
-        else if (Instance != this)
-        {
+            Debug.LogWarning("⚠️ İkinci bir JoyManager bulundu, yok ediliyor...");
             Destroy(gameObject);
             return;
         }
 
+        Instance = this;
+        DontDestroyOnLoad(gameObject);
+
+        delivered = PlayerPrefs.GetInt(DeliveredKey, 0);
         audioSource = GetComponent<AudioSource>() ?? gameObject.AddComponent<AudioSource>();
     }
 
     private void Start()
     {
         UpdateUI();
+        OnJoyValuesChanged?.Invoke();
     }
 
     public void InitLevel(int total)
@@ -50,6 +54,7 @@ public class JoyManager : MonoBehaviour
         totalJoys = total;
         collected = 0;
         UpdateUI();
+        OnJoyValuesChanged?.Invoke();
     }
 
     public bool CanCollect() => collected < capacity;
@@ -57,8 +62,10 @@ public class JoyManager : MonoBehaviour
     public void CollectOne()
     {
         if (!CanCollect()) return;
+
         collected++;
         UpdateUI();
+        OnJoyValuesChanged?.Invoke();
         Debug.Log($"✨ Joy toplandı! ({collected}/{capacity})");
     }
 
@@ -68,6 +75,7 @@ public class JoyManager : MonoBehaviour
 
         collected--;
         UpdateUI();
+        OnJoyValuesChanged?.Invoke();
 
         if (loseJoySound != null)
             audioSource.PlayOneShot(loseJoySound);
@@ -76,7 +84,6 @@ public class JoyManager : MonoBehaviour
         Debug.Log($"❌ 1 Joy kaybedildi! Kalan: {collected}/{capacity}");
     }
 
-    // 🎯 Hedefe teslim işlemi
     public void DeliverCurrent()
     {
         delivered += collected;
@@ -86,10 +93,10 @@ public class JoyManager : MonoBehaviour
         PlayerPrefs.Save();
 
         UpdateUI();
+        OnJoyValuesChanged?.Invoke();
 
         Debug.Log($"📦 Joy teslim edildi (toplam): {delivered}/{totalJoys}");
 
-        // Tüm joylar teslim edildiyse level atla
         if (delivered >= totalJoys)
         {
             Debug.Log("🏁 Tüm joylar teslim edildi! Level 2'ye geçiliyor...");
@@ -105,11 +112,8 @@ public class JoyManager : MonoBehaviour
     private IEnumerator NextLevelDelay()
     {
         yield return new WaitForSeconds(2f);
-
-        // PlayerPrefs’i sıfırla (yeni level için)
         PlayerPrefs.SetInt(DeliveredKey, 0);
         PlayerPrefs.Save();
-
         SceneManager.LoadScene("Level2");
     }
 
@@ -123,9 +127,13 @@ public class JoyManager : MonoBehaviour
     {
         collected = 0;
         delivered = 0;
+
         PlayerPrefs.SetInt(DeliveredKey, 0);
         PlayerPrefs.Save();
+
         UpdateUI();
+        OnJoyValuesChanged?.Invoke();
+
         Debug.Log("🔄 Joy sayacı tamamen sıfırlandı (yeni level).");
     }
 
